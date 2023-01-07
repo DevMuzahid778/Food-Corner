@@ -25,6 +25,10 @@ h1{
  font-weight: 900;
  color: rgba(74, 74, 74, 0.892);
 }
+h2{
+ font-weight: 900;
+ color: rgba(74, 74, 74, 0.892);
+}
 span{
     color: orange;
 }
@@ -38,4 +42,23 @@ button{
     padding: 12px 19px;
     border-radius: 25px;
     font-weight: 700;
+}
+.recepies{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.recepie-items{
+    display: flex;
+    font-size: 20px;
+}
+
+.food{
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 5px 5px 40px rgba(95, 95, 95, 0.834);
+    border-radius: 15px;
+}
+.food img{
+    width: 100%;
 }
