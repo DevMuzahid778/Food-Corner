@@ -6,8 +6,15 @@ body{
     display: flex;
     margin: 5% 5%;
 }
+.profile2{
+    display: flex;
+    background-image: url(media/profile2\ Bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .half-width{
     width: 50%;
+    padding: 2%;
 }
 
 .half-width img{
@@ -26,8 +33,9 @@ p{
 }
 button{
     color: white;
-    background-image: linear-gradient(45deg, rgba(255, 166, 0, 0.855),rgba(255, 0, 0, 0.855));
+    background-image: linear-gradient(45deg, rgba(255, 166, 0, 0.814),rgba(255, 0, 0, 0.727));
     border: none;
-    padding: 10px 17px;
+    padding: 12px 19px;
     border-radius: 25px;
+    font-weight: 700;
 }
